@@ -66,7 +66,7 @@ struct LoginForm: View {
             Button("Forgot your password?") {
                 print("Forgot password tapped")
             }
-            .font(.footnote)
+            .font(StyleConstants.footnoteFont)
             .foregroundStyle(StyleConstants.ColorWhite)
         }
         .padding(.bottom, 50)
@@ -82,7 +82,7 @@ struct LoginForm: View {
         .padding()
         .frame(maxWidth: .infinity)
         .background(StyleConstants.ColorRed)
-        .fontWeight(.bold)
+        .fontWeight(StyleConstants.FontWeightBold)
         .foregroundStyle(StyleConstants.ColorWhite)
     }
     
@@ -91,7 +91,7 @@ struct LoginForm: View {
             print("Sign up tapped")
         }
         .padding(.top, 10)
-        .font(.footnote)
+        .font(StyleConstants.footnoteFont)
         .foregroundStyle(StyleConstants.ColorWhite)
     }
 }

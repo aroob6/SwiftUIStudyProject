@@ -87,7 +87,7 @@ struct SearchBar: View {
             
         }
         .padding()
-        .border(Color.red, width: 3)
+        .border(StyleConstants.ColorRed, width: 3)
         .foregroundColor(.secondary)
         HStack {
             Text("Advanced Search")
